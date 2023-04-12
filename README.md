@@ -1,3 +1,3 @@
 # odin-recipes
 
-This will be my self-reflection at the end of the project where I describe all of the skills that I have demonstrated
+In this project I demonstrate basic HTML skills such as: creating individual web pages and linking them together with links to each other, images, ordered and unordered lists, as well as paragraphs and headers.
