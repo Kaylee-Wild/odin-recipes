@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
 
 body {
     font-family: 'Cinzel Decorative', sans-serif;
     font-weight: 400;
+    background-image: linear-gradient(to right, rgb(177, 216, 187), rgb(18, 199, 63));
+    text-align: center;
 }
 
 #title {
@@ -11,22 +20,53 @@ body {
     text-align: center;
 }
 
-.picture {
+.first-header {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.cookbook {
-    text-align: center;
+    border-style: inset;
+    border-color: black;
 }
 
 ul.recipes {
     display: inline-block;
     text-align: left;
     font-size: 50px;
+    list-style-type: none;
 }
 
-.cookies h1 {
-    color: red;
+.steps {
+    text-align: center;
 }
+
+.lists {
+    font-family: 'Roboto', sans-serif;
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+}
+
+.return {
+    text-align: left;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+
+
+a:link { text-decoration: none;
+    color: black;}
+    
+    a:visited { text-decoration: none;
+    color: black;}
+    
+    a:hover { text-decoration: none;
+    color: black;}
+    
+    a:active { text-decoration: none;
+    color: black;}
